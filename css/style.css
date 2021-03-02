@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* main style */
+	body {
+		margin: 0 auto;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	.sticky + #dv-content {
+		padding-top: 60px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	

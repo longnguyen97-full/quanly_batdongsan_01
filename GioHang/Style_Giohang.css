@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+    color: blue;
+}
+button{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding: 5px;
+}
+button a{
+    color: black;
+}

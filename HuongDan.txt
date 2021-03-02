@@ -1,0 +1,29 @@
+Hướng dẫn Phần Database
+1.  Mở mysql. Tạo CSDL 'QL_BatDongSan'
+2.  Chọn CSDL vừa tạo => Chọn Import => Chọn tập tin tương ứng => Khởi tạo(Go)
+
+-- -- -- -- --
+Hướng dẫn Phần Giao diện User
+1.  Chạy Demo: ql_batdongsan/index.php hoặc ql_batdongsan => Theo mặc định sẽ mở tập tin index.php
+
+2.  Phần tin tức
+    index.php(phần trang chủ) => menu2(menu điều hướng)
+    => linhvuc(gộp các trang lĩnh vực 'gioi thieu, du an,...' thành một)
+    => filter(kiểm ra và tạo mã, gọi trang nav)
+    => nav(lấy mã và chuyển hướng đến các trang con tương ứng)
+
+3.  Phần tin tức chi tiết
+    => Từ trang nội dung chung. Tạo MACT gọi đến trang linhvuc
+    => linhvuc gọi filter(kiểm ra và tạo mã, gọi trang chitiet)
+    => chitiet(hiển thị nội dung chi tiết)
+
+-- -- -- -- --
+Hướng dẫn Phần Giao diện Admin
+1.  Chạy Demo: ql_batdongsan/admin
+2.  index.php(phần đăng nhập) => xuly_dangnhap(kiểm tra tài khoản)
+3.  => linhvuc(tạo bộ khung) => filter(xử lý, tạo mã và chuyển đến các trang danh sách hiển thị)
+4.  => danhsach1, 2, 3(hiển thị thông tin batdongsan, bantin, khachhang,...)
+5.  Chọn Hiệu chỉnh/Thêm/Tìm kiếm ở header. header được linhvuc gọi vào.
+6.  => điều hướng đến CRUDS(tạo bộ khung, gọi cruds_check kiểm mã)
+7.  => cruds_check(kiểm mã và điều hướng đến trang tương ứng)
+ 

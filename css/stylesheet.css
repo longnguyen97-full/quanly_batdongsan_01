@@ -1,0 +1,165 @@
+/*NAV.php*/
+.dv-title {
+	height: 425px;
+    color: whitesmoke;
+    margin-top: -520px;
+	text-transform: 1px;
+	padding-bottom: 50px;
+}
+.dv-title h1 {
+	width: 350px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: linear-gradient(165deg, #527785 0%, #7FB4C7 100%);
+	opacity: 0.9;
+	border-radius: 100px / 50px;
+}
+.dv-title_gt {
+	height: 425px;
+    color: whitesmoke;
+    margin-top: -520px;
+	text-transform: 1px;
+	padding-bottom: 50px;
+}
+.dv-title_gt h1 {
+	width: 350px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: linear-gradient(165deg, #527785 0%, #7FB4C7 100%);
+	opacity: 0.9;
+	border-radius: 100px / 50px;
+}
+
+.dv-tb {
+    box-shadow: 0px 0px 1px 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    margin: 8px 8px 8px 8px;
+}
+    
+a {
+   text-decoration: none;
+   color: blue;
+}
+
+/*CT_NAV.php*/
+.dv-tb {
+    box-shadow: 0px 0px 1px 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    margin: 8px 8px 8px 8px;
+}
+
+/*TRANGCHU*/
+.dv-bg {
+	background-color: #51646B;
+	padding: 0px, 0px, 0px, 0px;
+	}
+	
+.dv-bg h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.dv-bg h3 {
+	margin-left: 42px;
+	filter: brightness(85%)
+}
+.dv-bg p {
+	margin-left: 42px;
+	color: white;
+	line-height: 25px;
+}
+
+/*BATDONGSAN*/
+.tb-bd{
+	border-radius: 5px;
+	border-collapse: collapse;
+	border-style: dashed;
+}
+
+/*GIOITHIEU*/
+.dv-content {
+	padding: 10px 100px 10px 100px;
+	margin: 8px 8px 8px 8px;
+	color: #575757;
+}
+
+.dv-content2 {
+	padding: 5px 100px 0px 100px;
+	margin: 0px 8px 0px 8px;
+	color: #575757;
+	background: linear-gradient(120deg, #EAEAEA 0%, #F3F3F3 55%, #F9F9F9 90%);
+}
+		
+.dv-content2 td {
+	word-wrap: break-word;
+	border: solid 1px;
+	border-color: lightgray;
+	padding: 30px 20px 10px 20px;
+	word-spacing: 5px;
+}
+		
+.dv-img--1 {
+	position: absolute;
+	top: 1500px;
+	right: 1080px;
+}
+.dv-img--2 {
+	position: absolute;
+	top: 1500px;
+	right: 855px;
+}
+.dv-img--3 {
+	position: absolute;
+	top: 1500px;
+	right: 630px;
+}
+.dv-img--4 {
+	position: absolute;
+	top: 1500px;
+	right: 405px;
+}
+.dv-img--5 {
+	position: absolute;
+	top: 1500px;
+	right: 180px;
+}
+/*LIENHE*/
+.dv-left {
+	margin-left: 180px;
+	margin-top: 50px;
+}
+
+.form {
+	box-shadow: 0px 0px 14px 0px grey;
+	padding: 30px 25px 120px 15px;
+	margin: 0px 0px 0px 0px;
+	width: 400px;
+	height: 300px;
+}
+	
+.form input {
+	display: block;
+	margin: 5px 20px 20px 10px;
+}
+.form input[type="text"] {
+	padding: 10px;
+	width: 70%;
+}
+.form textarea {
+	display: block;
+	margin: 5px 20px 20px 10px;
+	padding: 10px;
+}
+.form input.btsm {
+	cursor: pointer;
+	padding: 7px;
+	width: 50%;
+	border: none;
+	background-color: #3D4DFF;
+	color: white;
+}
+.form input.btsm:hover {
+	background-color: #DD940B;
+}
+
